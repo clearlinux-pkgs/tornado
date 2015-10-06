@@ -4,7 +4,7 @@
 #
 Name     : tornado
 Version  : 4.2.1
-Release  : 7
+Release  : 8
 URL      : https://pypi.python.org/packages/source/t/tornado/tornado-4.2.1.tar.gz
 Source0  : https://pypi.python.org/packages/source/t/tornado/tornado-4.2.1.tar.gz
 Summary  : Tornado is a Python web framework and asynchronous networking library, originally developed at FriendFeed.

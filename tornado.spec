@@ -4,7 +4,7 @@
 #
 Name     : tornado
 Version  : 4.4.2
-Release  : 18
+Release  : 19
 URL      : http://pypi.debian.net/tornado/tornado-4.4.2.tar.gz
 Source0  : http://pypi.debian.net/tornado/tornado-4.4.2.tar.gz
 Summary  : Tornado is a Python web framework and asynchronous networking library, originally developed at FriendFeed.
@@ -38,13 +38,15 @@ python components for the tornado package.
 
 %build
 export LANG=C
+export SOURCE_DATE_EPOCH=1484581325
 python2 setup.py build -b py2
 python3 setup.py build -b py3
 
 %install
+export SOURCE_DATE_EPOCH=1484581325
 rm -rf %{buildroot}
-python2 -tt setup.py build -b py2 install --root=%{buildroot}
-python3 -tt setup.py build -b py3 install --root=%{buildroot}
+python2 -tt setup.py build -b py2 install --root=%{buildroot} --force
+python3 -tt setup.py build -b py3 install --root=%{buildroot} --force
 
 %files
 %defattr(-,root,root,-)

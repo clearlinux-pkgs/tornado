@@ -1,5 +1,7 @@
 # This file contains recursive sources that require this package
 bash_kernel
+ceph
+gensim
 ipykernel
 ipython
 ipython-sql
@@ -7,5 +9,7 @@ jupyter
 jupyter-notebook-gist
 matplotlib
 notebook
+requests
+smart_open
 terminado
 urllib3

@@ -4,7 +4,7 @@
 #
 Name     : tornado
 Version  : 4.5.2
-Release  : 29
+Release  : 30
 URL      : https://pypi.debian.net/tornado/tornado-4.5.2.tar.gz
 Source0  : https://pypi.debian.net/tornado/tornado-4.5.2.tar.gz
 Summary  : Tornado is a Python web framework and asynchronous networking library, originally developed at FriendFeed.

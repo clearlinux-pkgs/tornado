@@ -1,6 +1,7 @@
 # This file contains recursive sources that require this package
 bash_kernel
 ceph
+certbot
 gensim
 ipykernel
 ipython
@@ -11,5 +12,4 @@ matplotlib
 notebook
 requests
 smart_open
-terminado
 urllib3

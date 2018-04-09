@@ -8,8 +8,12 @@ ipython
 ipython-sql
 jupyter
 jupyter-notebook-gist
+jupyter_client
+jupyterlab
+jupyterlab_launcher
 matplotlib
 notebook
+python-zeep
 requests
 smart_open
 urllib3

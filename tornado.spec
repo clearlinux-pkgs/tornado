@@ -4,7 +4,7 @@
 #
 Name     : tornado
 Version  : 5.1
-Release  : 46
+Release  : 47
 URL      : https://files.pythonhosted.org/packages/45/ec/f2a03a0509bcfca336bef23a3dab0d07504893af34fd13064059ba4a0503/tornado-5.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/45/ec/f2a03a0509bcfca336bef23a3dab0d07504893af34fd13064059ba4a0503/tornado-5.1.tar.gz
 Summary  : Tornado is a Python web framework and asynchronous networking library, originally developed at FriendFeed.
@@ -52,7 +52,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1534108548
+export SOURCE_DATE_EPOCH=1534116475
 python3 setup.py build -b py3
 
 %install

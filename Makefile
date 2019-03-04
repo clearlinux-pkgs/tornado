@@ -1,5 +1,5 @@
 PKG_NAME := tornado
-URL = https://files.pythonhosted.org/packages/66/1e/09fc514376ad53b3a0d822dc2b7e1de8edefb48ff75ada1948c46c63cfdd/tornado-6.0.tar.gz
+URL = https://files.pythonhosted.org/packages/b1/7f/8109821ff9df1bf3519169e34646705c32ac13be6a4d51a79ed57f47686e/tornado-6.0.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common

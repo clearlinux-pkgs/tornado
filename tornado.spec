@@ -4,7 +4,7 @@
 #
 Name     : tornado
 Version  : 6.0.3
-Release  : 57
+Release  : 58
 URL      : https://files.pythonhosted.org/packages/30/78/2d2823598496127b21423baffaa186b668f73cd91887fcef78b6eade136b/tornado-6.0.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/30/78/2d2823598496127b21423baffaa186b668f73cd91887fcef78b6eade136b/tornado-6.0.3.tar.gz
 Summary  : Clone of a C64 game, the goal is to destroy the opponent's house with certain weather phenomena

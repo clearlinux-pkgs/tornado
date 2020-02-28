@@ -1,10 +1,13 @@
 # This file contains recursive sources that require this package
 bokeh
-deprecated-urllib3
 distributed
 ipykernel
 ipython
 jupyter_client
+jupyterlab
 matplotlib
 notebook
+pcs
+pika
+terminado
 urllib3

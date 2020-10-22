@@ -4,10 +4,10 @@
 #
 Name     : tornado
 Version  : 6.0.4
-Release  : 63
+Release  : 64
 URL      : https://files.pythonhosted.org/packages/95/84/119a46d494f008969bf0c775cb2c6b3579d3c4cc1bb1b41a022aa93ee242/tornado-6.0.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/95/84/119a46d494f008969bf0c775cb2c6b3579d3c4cc1bb1b41a022aa93ee242/tornado-6.0.4.tar.gz
-Summary  : Clone of a C64 game, the goal is to destroy the opponent's house with certain weather phenomena
+Summary  : Tornado is a Python web framework and asynchronous networking library, originally developed at FriendFeed.
 Group    : Development/Tools
 License  : Apache-2.0
 Requires: tornado-license = %{version}-%{release}
@@ -16,12 +16,7 @@ Requires: tornado-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
 
 %description
-Running the Tornado Facebook example
-====================================
-To run this example, you must register a Facebook application with a
-Connect URL set to the domain the this demo will be running on
-(i.e. http://localhost:8888/ by default).  The API key and secret
-for this application must be passed on the command line:
+==================
 
 %package license
 Summary: license components for the tornado package.
@@ -59,15 +54,14 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1583294868
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1603406371
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
 export NM=gcc-nm
 export CFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
-export FCFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
-export FFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
+export FCFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
+export FFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
 export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=4 "
 export MAKEFLAGS=%{?_smp_mflags}
 python3 setup.py build

@@ -6,10 +6,7 @@ ipython
 jupyter_client
 jupyterlab
 matplotlib
-mycroft-core
 notebook
 pcs
-performance
-pika
 terminado
 urllib3
